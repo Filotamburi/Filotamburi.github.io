@@ -2,7 +2,7 @@ body {
   background: lightblue;
 }
 h1 {
-  border: 1px dashed orange;
+  border: 5px dashed orange;
 }
 li {
 
@@ -12,4 +12,8 @@ li {
 }
 #workexperience {
   text-decoration: line-through;
+}
+a:hover {
+  color: green;
+  text-decoration: underline;
 }
