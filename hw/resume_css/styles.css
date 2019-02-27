@@ -1,5 +1,6 @@
 body {
   background: lightblue;
+  font-family: 'Cinzel', serif;
 }
 h1 {
   border: 5px dashed orange;
@@ -8,7 +9,7 @@ h1 {
 
 }
 li {
-color: red;
+color: green;
 
 }
 .filippo {
@@ -27,4 +28,11 @@ color: red;
 .navigation{
   color: red;
 
+}
+h1 {
+ text-align: center;
+ border-bottom: 5px dotted red;
+ padding-bottom: 15px
+ font-family: 'Cinzel', serif;
+ font size: 50px
 }
