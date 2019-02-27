@@ -3,17 +3,28 @@ body {
 }
 h1 {
   border: 5px dashed orange;
+  text-align: center;
+
+
 }
 li {
+color: red;
 
 }
 .filippo {
-  color: red
+  color: orange;
 }
 #workexperience {
   text-decoration: line-through;
 }
-a:hover {
+ a:hover {
   color: green;
-  text-decoration: underline;
+  text-decoration: none;
+}
+.link {
+  color: green;
+}
+.navigation{
+  color: red;
+
 }
