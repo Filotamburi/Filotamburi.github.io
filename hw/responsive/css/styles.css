@@ -1,0 +1,36 @@
+.primarycolor { color:     }
+.secondarycolor { color:     }
+.generalcolor { color:      }
+
+.primarybackground {background: #}
+.secondarybackground {background: #}
+.generalbackground {background: #}
+
+.article1{
+display: grid;
+}
+.article2{
+  display: grid;
+}
+
+.article3 img {
+  max-width: 100%;
+  margin: 10px;
+}
+.article3 div {padding: 5px;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+}
+nav ul a {
+  text-decoration: none;
+  text-align: center;
+}
+.header {
+  text-align: center;
+}
