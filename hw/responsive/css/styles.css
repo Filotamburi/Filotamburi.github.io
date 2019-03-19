@@ -1,3 +1,11 @@
+body {
+  background-color: lightblue;
+}
+
+.grid {display: grid;}
+
+
+
 .primarycolor { color:     }
 .secondarycolor { color:     }
 .generalcolor { color:      }
@@ -10,7 +18,8 @@
 display: grid;
 }
 .article2{
-  display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+
 }
 
 .article3 img {
@@ -31,9 +40,16 @@ nav ul a {
   text-decoration: none;
   text-align: center;
 }
-.header {
+header {
   text-align: center;
+  color: red;
+
 }
+h2 {text-align: center;}
+
 .article4 {
 display: grid;
+}
+h1 {
+  background-color: light blue;
 }

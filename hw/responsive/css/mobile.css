@@ -1,22 +1,19 @@
 
-
-
-
 .article1{
 display: grid;
 grid-template-columns: 1fr 1fr;
 
 }
-.article2{
+.article2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
 
 }
-.article3{
+.article3 {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .article4 {
-  
+
   grid-template-columns: 1fr 1fr 1fr;
 }
