@@ -1,6 +1,6 @@
 .article1{
 display: grid;
-grid-template-columns: 2fr;
+grid-template-columns: 2fr 2fr;
 
 }
 .article2{
@@ -12,12 +12,18 @@ display: grid;
 grid-template-columns: 2fr 2fr;
 
 }
-nav ul img {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
- width: 50%;
-  max-height: 200;
-}
-.article4 {
-  grid-template-columns: 3fr 3fr 3fr;
 
+nav ul {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.article4 {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+}
+
+.imagestext {
+  display: grid;
+  grid-template-columns: 5fr 10fr;
 }
