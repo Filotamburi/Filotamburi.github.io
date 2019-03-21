@@ -1,18 +1,21 @@
 .article1{
 display: grid;
-grid-template-columns: 1fr 2fr;
+grid-template-columns: 2fr;
 
 }
 .article2{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 2fr;
 }
-.article3{
+.article3  {
 display: grid;
-grid-template-columns: 1fr 2fr;
+grid-template-columns: 2fr 2fr;
+
 }
-nav ul {
+nav ul img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
+ width: 50%;
+  max-height: 200;
 }
 .article4 {
   grid-template-columns: 3fr 3fr 3fr;
