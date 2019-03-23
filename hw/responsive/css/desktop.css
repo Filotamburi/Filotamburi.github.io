@@ -6,13 +6,21 @@ grid-template-columns: 2fr 2fr;
 .article2{
   display: grid;
   grid-template-columns: 2fr 2fr;
+  margin-right: 20px;
 }
 .article3  {
 display: grid;
 grid-template-columns: 2fr 2fr;
+margin-right: 20px;
 
 }
+div {
+  padding: 5px;
+  margin-right: 20px;
+  border-style: groove;
+  border-color: black;
 
+}
 nav ul {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -26,4 +34,5 @@ nav ul {
 .imagestext {
   display: grid;
   grid-template-columns: 5fr 10fr;
+  margin-right: 20px;
 }
