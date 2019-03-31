@@ -18,6 +18,20 @@ color: green;
 #workexperience {
   text-decoration: line-through;
 }
+#fashion {
+  color: orange;
+}
+#music {
+  color: green;
+}
+#film {
+  color: red;
+}
+#title {
+  text-decoration: overline;
+  
+}
+
  a:hover {
   color: green;
   text-decoration: none;
