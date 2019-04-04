@@ -12,6 +12,13 @@ var titles= [
 $(function(){
   $("#stepinfo, section, footer, .prev").hide();
 
+$('body').css('background','lightblue')
+$('body').css('font-size','20px')
+$('body').css('text-align','center')
+$('body').css('text-color','red')
+
+
+
 });
 $('.start').on('click', function(){
   //do stuff when the button is clicked
@@ -37,6 +44,8 @@ if (step== 2) {
 }
 if (step == 5) {
   $('.next').hide();
+  $('#final').html('We are done! <strong> Start again? </strong>');
+  console.log("done");
 }
 
 
@@ -72,6 +81,8 @@ if (step== 1) {
 
 if (step == 5) {
  $('.next').hide();
+ 
+ //$('#final').text('We are done! <strong> Start again? </strong>');
 }
 
 
