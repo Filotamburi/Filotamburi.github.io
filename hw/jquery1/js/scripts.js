@@ -1,10 +1,10 @@
 
 var step = 0;
 var titles= [
-  'Prepare for takeoff', //titles [0]
-  'Put seatbelt on', // this is 1
-  'Turn on engine',// 2
-  'Lights on ',// 3
+  'Choose the pasta type', //titles [0]
+  'Weight it', // this is 1
+  'Boil water',// 2
+  'Drain it ',// 3
   'press go',//4
   'dont die'//5
 
