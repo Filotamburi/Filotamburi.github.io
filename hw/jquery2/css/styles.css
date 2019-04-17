@@ -4,12 +4,22 @@
 }
 div ul {
   list-style: none;
+
 }
-.h1 {
+.title {
   text-align: center;
   text-decoration: underline;
   color: green;
+  display: grid;
+  grid-template-columns: 3fr;
 }
 .p {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.list {
+  list-style-position: inside;
+  text-align: center;
+  list-style: upper-roman;
 }
